@@ -41,7 +41,7 @@ async def button_click(update: Update, context):
     )
 
 # إعداد التطبيق والبوت
-app = ApplicationBuilder().token('7251781299AAFdXBdux5sYJlW8L73B3hKFkVlRdEaOxw8').build()
+app = ApplicationBuilder().token('7696140362AAFt9GFPis9KwGGvZE93Fd8IXKhgxnzHQOE').build()
 
 # ربط الأوامر والدوال مع البوت
 app.add_handler(CommandHandler("start", start))
