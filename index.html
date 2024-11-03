@@ -3,19 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram User Page</title>
+    <title>Simple Game</title>
 </head>
 <body>
-    <h1 id="welcome-message"></h1>
-
-    <script>
-        // استخراج معرف المستخدم من الـ URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const userId = urlParams.get('user_id');
-
-        // عرض رسالة الترحيب
-        const welcomeMessage = document.getElementById('welcome-message');
-        welcomeMessage.innerText = `Hello, User ID: ${userId}`;
-    </script>
+    <h1>Welcome to the Game!</h1>
+    <button onclick="alert('Game Started!')">Start Game</button>
 </body>
 </html>
