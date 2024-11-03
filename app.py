@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler
 
 # تعريف عنوان URL لصفحة الويب التي سيتم فتحها
-WEB_URL = "https://your-web-page.com"
+WEB_URL = "https://elmasry777.github.io/TelegramBot/"
 
 # دالة البداية لعرض زر "PLAY"
 async def start(update: Update, context):
