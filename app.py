@@ -2,7 +2,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 
 # ضع توكن البوت هنا
-BOT_TOKEN = "YO7696140362AAFt9GFPis9KwGGvZE93Fd8IXKhgxnzHQOEUR_BOT_TOKEN"
+BOT_TOKEN = "7696140362AAFt9GFPis9KwGGvZE93Fd8IXKhgxnzHQOE"
 WEB_APP_URL = "https://your-web-app-url.com"  # ضع رابط تطبيق الويب هنا
 
 async def start(update: Update, context: CallbackContext) -> None:
